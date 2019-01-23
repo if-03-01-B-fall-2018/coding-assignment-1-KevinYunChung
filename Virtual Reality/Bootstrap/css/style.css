@@ -1,0 +1,55 @@
+.bg-main {
+	background-color: #222222;
+	color: #fff;
+}
+
+.desc {
+	font-size: 1.4rem;
+}
+
+.header .col-12: last-child {
+	border-top: 1px solid aliceblue;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.header .col-12: last-child {
+		border: @px;
+		text-align: left; 
+	}
+}
+
+.section-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section .title {
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.box {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	margin-top: 10px;
+	transition: all .3s ease;
+}
+
+.box .title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid darkblue;
+	font-size: 2rem;
+}
+
+.box:hover {
+	-webkit-box-shadow: @px 2px 5px 0px rgba(0, 0, 0, 0, 16);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0, 16);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0, 16);
+	margin-top: 5px;
+	margin-bottom: 5px
+}
